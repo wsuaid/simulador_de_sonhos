@@ -195,15 +195,4 @@ st.text_input(
 
 # --- MOSTRA AS MENSAGENS NO FIM ---
 st.markdown("---")
-
-if msg:
-    if tipo_msg == "success":
-        st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDB2d2NtbjJ0eXJzNnN0cW96cDV2eDBpY2VqZ250aWJmYjZzeG1qZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LdOyjZ7io5Msw/giphy.gif", width=150)
-        st.success(msg)
-    elif tipo_msg == "info":
-        st.info(msg)
-    elif tipo_msg == "warning":
-        st.warning(f"⚠️ {msg}")
-
-st.markdown("---")
 st.caption("Aviso Importante: Os valores aqui são só ilustrativos pra ajudar a entender e não são garantia de ganho. Pra achar o melhor investimento pra vc, fale com nossos consultores.")
